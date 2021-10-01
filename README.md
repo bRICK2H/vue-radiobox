@@ -1,19 +1,18 @@
 # vue-radiobox
 
-## Project setup
-```
-npm install
-```
+### Example
 
-### Compiles and hot-reloads for development
+```javascript
+	<VRadioCheckbox
+		diff="yes"
+		label="Да"
+		margin="0 0 8 0"
+		v-model="isServices"
+	/>
+	<VRadioCheckbox
+		diff="no"
+		label="Нет"
+		margin=""
+		v-model="isServices"
+	/>
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
